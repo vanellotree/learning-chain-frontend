@@ -19,9 +19,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+<<<<<<< HEAD
     "noImplicitAny": false
+=======
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+>>>>>>> upstream/develop
   },
   "include": [
     "src"
-  ]
+  ],
 }
